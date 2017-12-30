@@ -22,7 +22,7 @@ def solveMazeUtil(maze,x,y,sol):   # backtracking algorithm
         return False  # return False
 def solveMaze(maze):
     N = len(maze)
-    sol = sol = [ [ 0 for j in range(N) ] for i in range(N) ]
+    sol = [[0]*N]*N # creating a N*N matrix all value = 0
     if solveMazeUtil(maze,0,0,sol) == False:
         print("path does not exist")
     else:
