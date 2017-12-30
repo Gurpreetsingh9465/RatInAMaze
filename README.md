@@ -1,0 +1,2 @@
+# RatInAMaze
+backtracking algorithm
